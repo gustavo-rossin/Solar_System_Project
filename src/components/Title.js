@@ -1,10 +1,13 @@
 import React from 'react';
 
+const { headline } = this.props;
+
 class Title extends React.Component {
   render() {
+    console.log(this.props);
     return (
       <h2>
-        {this.props.headline}
+        {headline}
       </h2>
     );
   }
